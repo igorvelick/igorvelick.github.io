@@ -1,0 +1,874 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../Fonts/static/Inter-bold.ttf);
+}
+@font-face {
+  font-family: "montserrat400";
+  src: url(../Fonts/static/Inter-ExtraLight.ttf);
+}
+body {
+  width: 1440px;
+  height: 3451px;
+  margin: 0px auto;
+  padding: 0px;
+  font-family: "montserrat";
+  color: aliceblue;
+  background-color: white;
+}
+
+header {
+  width: 100%;
+  height: 700px;
+  background-color: black;
+  padding: 40px 0px 224px 0px;
+  background-image: url(../Image/Bitmap.png);
+}
+header .block {
+  width: 901px;
+  height: 36px;
+  margin-left: 248px;
+}
+header .block_logo {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 596px;
+}
+header .block_text {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "montserrat400";
+}
+header .block_text .sign {
+  display: inline-block;
+  width: 90px;
+  height: 36px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 30px;
+  line-height: 33px;
+  margin-left: 19px;
+}
+header .block2 {
+  width: 470px;
+  height: 252.5px;
+  margin: 153.5px auto 0px;
+  text-align: center;
+}
+header .block2_bigtext {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 63.39px;
+  margin-bottom: 28.5px;
+}
+header .block2_midtext {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 33px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header .block2_smalltext {
+  width: 225px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  background: #ff4e50;
+  border-radius: 40px;
+  margin: auto;
+  line-height: 17px;
+  padding: 10px;
+}
+
+main {
+  width: 940px;
+  height: 2491px;
+  background-color: white;
+  margin: 0px auto;
+  padding-top: 95px;
+  box-sizing: border-box;
+}
+main .content1 {
+  width: 100%;
+  height: 461px;
+  background-color: white;
+}
+main .content1 h1 {
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  margin-bottom: 35px;
+}
+main .content1-box1, main .content1-box3, main .content1-box2 {
+  width: 300px;
+  height: 400px;
+  background-color: none;
+  background-image: url("../Image/Step 1 image.png");
+  float: left;
+  padding: 219px 25px 0px;
+  font-family: "montserrat";
+}
+main .content1-box1_first {
+  width: 70px;
+  height: 20px;
+  background-color: #ff4e50;
+  font-size: 10px;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 12px;
+  font-family: "montserrat400";
+  padding-top: 5px;
+  margin-bottom: 15px;
+}
+main .content1-box1_second {
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+main .content1-box1_third {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+main .content1-box2 {
+  background-image: url("../Image/Step 2 image.png");
+  margin: 0px 20px;
+  padding-top: 250px;
+}
+main .content1-box2_first {
+  width: 70px;
+  height: 20px;
+  background-color: #ff4e50;
+  font-size: 10px;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 12px;
+  font-family: "montserrat400";
+  padding-top: 5px;
+  margin-bottom: 15px;
+}
+main .content1-box2_second {
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+main .content1-box2_third {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+main .content1-box3 {
+  background-image: url("../Image/Step 3 image.png");
+}
+main .content2 {
+  width: 100%;
+  height: 361px;
+  background-color: none;
+  margin-top: 95px;
+  margin-bottom: 95px;
+  text-align: center;
+  color: black;
+}
+main .content2 h1 {
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  margin-bottom: 35px;
+}
+main .content2-box1, main .content2-box3, main .content2-box4, main .content2-box2 {
+  width: 221px;
+  height: 205px;
+  background-color: none;
+  float: left;
+  position: relative;
+}
+main .content2-box1_first, main .content2-box4_first, main .content2-box3_first, main .content2-box2_first {
+  width: 120px;
+  height: 120px;
+  background-color: none;
+  background-image: url("../Image/Avatar.png");
+  margin: 0px auto 17px;
+}
+main .content2-box1_second {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 12px;
+}
+main .content2-box1_third {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+main .content2-box2 {
+  margin: 0px 19px;
+}
+main .content2-box2_first {
+  background-image: url("../Image/Avatar1.png");
+}
+main .content2-box2_second {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 12px;
+}
+main .content2-box2_third {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+main .content2-box3, main .content2-box4 {
+  width: 221px;
+  height: 224px;
+  background-color: none;
+  margin-right: 18px;
+}
+main .content2-box3_first {
+  background-image: url("../Image/Avatar2.png");
+}
+main .content2-box3_second {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 12px;
+}
+main .content2-box3_third {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+main .content2-box4 {
+  margin: 0px 0px 36px;
+}
+main .content2-box4_first {
+  background-image: url("../Image/Avatar3.png");
+}
+main .content2-box4_second {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 12px;
+}
+main .content2-box4_third {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+main .content2-button {
+  width: 180px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid #ff4e50;
+  border-radius: 40px;
+  clear: both;
+  padding: 12px;
+  color: red;
+  margin: 0px auto;
+}
+main .content3 {
+  width: 100%;
+  height: 1031px;
+  background-color: none;
+  text-align: center;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 95px;
+}
+main .content3 h1 {
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  margin-bottom: 35px;
+}
+main .content3-box1 {
+  width: 100%;
+  height: 310px;
+  background-color: none;
+}
+main .content3-box1_first {
+  width: 300px;
+  height: 310px;
+  background-color: black;
+  background-image: url("../Image/Object1.png");
+  float: left;
+  padding-top: 142px;
+}
+main .content3-box1_second {
+  width: 300px;
+  height: 310px;
+  background-color: black;
+  background-image: url("../Image/Object2.png");
+  margin: 0px 20px;
+  float: left;
+  padding-top: 142px;
+}
+main .content3-box1_third {
+  width: 300px;
+  height: 310px;
+  background-color: #d8d8d8;
+  background-image: url("../Image/Object3.png");
+  float: left;
+  padding-top: 142px;
+}
+main .content3-box2 {
+  width: 100%;
+  height: 310px;
+  background-color: none;
+  margin: 20px 0px;
+}
+main .content3-box2_first {
+  width: 300px;
+  height: 310px;
+  background-color: black;
+  background-image: url("../Image/Object4.png");
+  float: left;
+  padding-top: 142px;
+}
+main .content3-box2_second {
+  width: 620px;
+  height: 310px;
+  background-color: black;
+  background-image: url("../Image/Object5.png");
+  margin-left: 20px;
+  float: left;
+  padding-top: 142px;
+}
+main .content3-box3 {
+  width: 100%;
+  height: 310px;
+  background-color: none;
+}
+main .content3-box3_first {
+  width: 620px;
+  height: 310px;
+  background-color: black;
+  background-image: url("../Image/Object6.png");
+  float: left;
+  padding-top: 142px;
+}
+main .content3-box3_second {
+  width: 300px;
+  height: 310px;
+  background-color: black;
+  background-image: url("../Image/Object7.png");
+  margin-left: 20px;
+  float: left;
+  padding-top: 142px;
+}
+main .content4 {
+  width: 482px;
+  height: 158px;
+  background-color: none;
+  margin: 0px auto 100px;
+  color: black;
+  text-align: center;
+}
+main .content4 h1 {
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  margin-bottom: 43px;
+}
+main .content4-box1 {
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+main .content4-box2 {
+  width: 482px;
+  height: 40px;
+  background-color: none;
+}
+main .content4-box2_first {
+  width: 299px;
+  height: 40px;
+  background-color: none;
+  float: left;
+  border: 1px solid #d4d4d4;
+}
+main .content4-box2_first input {
+  width: 291px;
+  height: 34px;
+  background-color: none;
+  color: black;
+}
+main .content4-box2_second {
+  width: 172px;
+  height: 40px;
+  background-color: none;
+  float: left;
+  background: #ff4e50;
+  border-radius: 40px;
+  margin-left: 10px;
+  padding-top: 12px;
+  font-size: 14px;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 224px;
+  background-color: white;
+  padding: 38px 250px 0px;
+  color: black;
+  border-top: 2px solid red;
+}
+footer h1 {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "montserrat400";
+  margin-right: 122px;
+  color: red;
+  float: left;
+}
+footer h5 {
+  margin-bottom: 11px;
+}
+footer ul {
+  float: left;
+  font-size: 14px;
+  margin-right: 169px;
+}
+footer li {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 26px;
+  color: #999999;
+}
+footer h6 {
+  text-align: right;
+  font-size: 10px;
+  color: #cccccc;
+}
+footer img {
+  margin-left: 105px;
+}
+
+@media screen and (max-width: 1430px) {
+  body {
+    width: 768px;
+    height: 3451px;
+    background-color: #cccccc;
+  }
+
+  header {
+    padding: 40px 0px 224px 0px;
+    background-position: center;
+  }
+  header .block {
+    width: 670px;
+    height: 36px;
+    margin-left: 48px;
+  }
+  header .block_logo {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 365px;
+  }
+
+  main {
+    width: 768px;
+    height: 2735px;
+  }
+  main .content1 h1 {
+    font-size: 22px;
+  }
+  main .content1 {
+    padding-left: 10px;
+  }
+  main .content1-box1, main .content1-box2,
+main .content1-box3 {
+    padding: 205px 20px 0px;
+    width: 236px;
+  }
+  main .content1-box1_first,
+main .content1-box3_first {
+    margin-bottom: 40px;
+  }
+  main .content1-box1_second,
+main .content1-box3_second {
+    line-height: 14px;
+  }
+  main .content1-box2 {
+    padding: 255px 20px 0px;
+    width: 236px;
+  }
+  main .content1-box2_first {
+    margin-bottom: 17px;
+  }
+  main .content1-box2_second {
+    line-height: 14px;
+  }
+  main .content2 {
+    width: 495px;
+    height: 605px;
+    margin: 95px auto;
+  }
+  main .content2-box1, main .content2-box2, main .content2-box3, main .content2-box4 {
+    width: 236px;
+    margin: 0px;
+  }
+  main .content2-box4 {
+    margin: 35px 0px 40px 20px;
+  }
+  main .content2-box3, main .content2-box4 {
+    margin-top: 35px;
+  }
+  main .content2-box2 {
+    margin-left: 20px;
+  }
+  main .content3 {
+    padding-left: 10px;
+  }
+  main .content3-box1 {
+    width: 100%;
+    height: 310px;
+    background-color: none;
+  }
+  main .content3-box1_first {
+    width: 236px;
+    height: 310px;
+    background-color: black;
+  }
+  main .content3-box1_second {
+    width: 236px;
+    height: 310px;
+    background-color: black;
+  }
+  main .content3-box1_third {
+    width: 236px;
+    height: 310px;
+    background-color: #d8d8d8;
+  }
+  main .content3-box2 {
+    width: 100%;
+    height: 310px;
+    background-color: none;
+  }
+  main .content3-box2_first {
+    width: 236px;
+    height: 310px;
+    background-color: black;
+  }
+  main .content3-box2_second {
+    width: 492px;
+    height: 310px;
+    background-color: black;
+  }
+  main .content3-box3 {
+    width: 100%;
+    height: 310px;
+    background-color: none;
+  }
+  main .content3-box3_first {
+    width: 492px;
+    height: 310px;
+    background-color: black;
+  }
+  main .content3-box3_second {
+    width: 236px;
+    height: 310px;
+    background-color: black;
+  }
+
+  footer {
+    padding: 36px 36px 0px;
+  }
+  footer h1 {
+    margin-right: 108px;
+  }
+  footer ul {
+    margin-right: 100px;
+  }
+  footer img {
+    margin-left: 170px;
+  }
+}
+@media screen and (max-width: 770px) {
+  body {
+    width: 320px;
+    height: 3938px;
+  }
+
+  header {
+    padding: 20px 10px 0px;
+    background-image: url("../Image/Headaer and Promo.png");
+    height: 540px;
+  }
+  header .block {
+    width: 153px;
+    height: 36px;
+    margin-left: 70px;
+  }
+  header .block_logo {
+    position: absolute;
+    top: 153px;
+  }
+  header .block2 {
+    width: 281px;
+    height: 183.5px;
+    margin: 147.5px auto 0px;
+  }
+  header .block2_bigtext {
+    font-size: 30px;
+    line-height: 36.5px;
+    margin-bottom: 5.5px;
+  }
+  header .block2_midtext {
+    width: 240px;
+    font-size: 18px;
+    line-height: 24.5px;
+    margin: 0px auto 15px;
+  }
+  header .block2_smalltext {
+    width: 280px;
+  }
+
+  main {
+    width: 320px;
+    height: 3172px;
+    padding-top: 35px;
+  }
+  main .content1 h1 {
+    margin-bottom: 15px;
+  }
+  main .content1 {
+    height: 780px;
+  }
+  main .content1-box1, main .content1-box2,
+main .content1-box3 {
+    padding: 69px 30px 0px 20px;
+    width: 300px;
+    height: 240px;
+  }
+  main .content1-box2 {
+    padding: 95px 30px 0px 20px;
+    width: 300px;
+    height: 240px;
+    margin: 10px 0px;
+  }
+  main .content1-box2_first {
+    margin-bottom: 23px;
+  }
+  main .content1-box2_second {
+    line-height: 24px;
+  }
+  main .content2 {
+    width: 300px;
+    height: 1031px;
+    margin: 35px auto;
+  }
+  main .content2 h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  main .content2-box1, main .content2-box3, main .content2-box2, main .content2-box4 {
+    width: 236px;
+    height: 205px;
+    margin: 0px 32px;
+  }
+  main .content2-box3, main .content2-box4 {
+    margin: 35px 0px 40px 20px;
+    height: 224px;
+    margin: 16px 32px;
+  }
+  main .content2-box4 {
+    width: 236px;
+    height: 205px;
+    margin: 0px 32px 36px;
+  }
+  main .content2-box2 {
+    margin-top: 16px;
+  }
+  main .content2-button {
+    width: 236px;
+  }
+  main .content3 {
+    padding-left: 10px;
+    height: 987px;
+    margin-bottom: 35px;
+  }
+  main .content3-box1 {
+    width: 0px;
+    height: 0px;
+    background-color: none;
+  }
+  main .content3-box1_first {
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    padding: 33px 0px;
+    margin: 0px;
+    background-image: url("../Image/photo1.png");
+  }
+  main .content3-box1_second {
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    padding: 33px 0px;
+    margin: 10px 0px 0px 0px;
+    background-image: url("../Image/photo2.png");
+  }
+  main .content3-box1_third {
+    width: 300px;
+    height: 120px;
+    background-color: #d8d8d8;
+    padding: 33px 0px;
+    margin: 10px 0px 0px 0px;
+    background-image: url("../Image/photo3.png");
+  }
+  main .content3-box2 {
+    width: 0px;
+    height: 0px;
+    background-color: none;
+  }
+  main .content3-box2_first {
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    padding: 33px 0px;
+    margin: 10px 0px 0px 0px;
+    background-image: url("../Image/photo4.png");
+  }
+  main .content3-box2_second {
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    padding: 33px 0px;
+    margin: 10px 0px 0px 0px;
+    background-image: url("../Image/photo5.png");
+  }
+  main .content3-box3 {
+    width: 0px;
+    height: 0px;
+    background-color: none;
+  }
+  main .content3-box3_first {
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    padding: 33px 0px;
+    margin: 10px 0px 0px 0px;
+    background-image: url("../Image/photo6.png");
+  }
+  main .content3-box3_second {
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    padding: 33px 0px;
+    margin: 10px 0px 0px 0px;
+    background-image: url("../Image/photo7.png");
+  }
+  main .content4 {
+    width: 300px;
+    height: 192px;
+    margin-bottom: 0px;
+  }
+  main .content4 h1 {
+    width: 280px;
+    font-size: 22px;
+    margin: 0px auto 10px;
+    line-height: 26.8px;
+  }
+  main .content4-box1 {
+    margin-bottom: 15px;
+  }
+  main .content4-box2 {
+    width: 0px;
+  }
+  main .content4-box2_second {
+    width: 280px;
+    margin-top: 10px;
+  }
+
+  footer {
+    width: 320px;
+    height: 224px;
+    padding: 19px 60px 0px;
+    position: relative;
+  }
+  footer h1 {
+    margin: 0px 0px 0px 50px;
+  }
+  footer h5 {
+    margin: 13px 65px 5px;
+  }
+  footer h6 {
+    position: absolute;
+    bottom: 53px;
+    left: 125px;
+  }
+  footer ul {
+    margin-right: 0px;
+    display: inline-block;
+    text-align: center;
+  }
+  footer li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  footer .w {
+    margin: 10px 0px 0px 69px;
+  }
+  footer img {
+    margin: 0px;
+    position: absolute;
+    bottom: 22px;
+    right: 105px;
+  }
+}/*# sourceMappingURL=main.css.map */

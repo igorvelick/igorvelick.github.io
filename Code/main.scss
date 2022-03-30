@@ -1,0 +1,729 @@
+@import "reset";
+@import "mixin";
+@import "fonts";
+$roboto: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+  Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+body {
+  width: 1440px;
+  height: 3451px;
+  margin: 0px auto;
+  padding: 0px;
+  font-family: "montserrat";
+  color: aliceblue;
+  background-color: white;
+}
+header {
+  @include clas(100%, 700px, black);
+  padding: 40px 0px 224px 0px;
+  background-image: url(../Image/Bitmap.png);
+  .block {
+    width: 901px;
+    height: 36px;
+    margin-left: 248px;
+    &_logo {
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 700;
+      margin-right: 596px;
+    }
+    &_text {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "montserrat400";
+      .sign {
+        display: inline-block;
+        width: 90px;
+        height: 36px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 30px;
+        line-height: 33px;
+        margin-left: 19px;
+      }
+    }
+  }
+  .block2 {
+    width: 470px;
+    height: 252.5px;
+    margin: 153.5px auto 0px;
+    text-align: center;
+    &_bigtext {
+      font-size: 52px;
+      font-weight: 700;
+      line-height: 63.39px;
+      margin-bottom: 28.5px;
+    }
+    &_midtext {
+      font-size: 24px;
+      font-weight: 300;
+      margin-bottom: 33px;
+      font-family: $roboto;
+    }
+    &_smalltext {
+      width: 225px;
+      height: 40px;
+      font-size: 14px;
+      font-weight: 700;
+      background: #ff4e50;
+      border-radius: 40px;
+      margin: auto;
+      line-height: 17px;
+      padding: 10px;
+    }
+  }
+}
+main {
+  @include clas(940px, 2491px, white);
+  margin: 0px auto;
+  padding-top: 95px;
+  box-sizing: border-box;
+  .content1 {
+    @include clas(100%, 461px, white);
+    h1 {
+      font-size: 26px;
+      color: black;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    &-box1 {
+      @include clas(300px, 400px, none);
+      background-image: url("../Image/Step\ 1\ image.png");
+      float: left;
+      padding: 219px 25px 0px;
+      font-family: "montserrat";
+      &_first {
+        @include clas(70px, 20px, #ff4e50);
+        font-size: 10px;
+        border-radius: 40px;
+        text-align: center;
+        line-height: 12px;
+        font-family: "montserrat400";
+        padding-top: 5px;
+        margin-bottom: 15px;
+      }
+      &_second {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 25px;
+      }
+      &_third {
+        font-size: 14px;
+        line-height: 14px;
+        font-family: $roboto;
+        font-weight: 300;
+      }
+    }
+    &-box2 {
+      @extend .content1-box1;
+      background-image: url("../Image/Step\ 2\ image.png");
+      margin: 0px 20px;
+      padding-top: 250px;
+      &_first {
+        @include clas(70px, 20px, #ff4e50);
+        font-size: 10px;
+        border-radius: 40px;
+        text-align: center;
+        line-height: 12px;
+        font-family: "montserrat400";
+        padding-top: 5px;
+        margin-bottom: 15px;
+      }
+      &_second {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 25px;
+      }
+      &_third {
+        font-size: 14px;
+        line-height: 14px;
+        font-family: $roboto;
+        font-weight: 300;
+      }
+    }
+    &-box3 {
+      @extend .content1-box1;
+      background-image: url("../Image/Step\ 3\ image.png");
+    }
+  }
+  .content2 {
+    @include clas(100%, 361px, none);
+    margin-top: 95px;
+    margin-bottom: 95px;
+    text-align: center;
+    color: black;
+    h1 {
+      font-size: 26px;
+      color: black;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    &-box1 {
+      @include clas(221px, 205px, none);
+      float: left;
+      position: relative;
+      &_first {
+        @include clas(120px, 120px, none);
+        background-image: url("../Image/Avatar.png");
+        margin: 0px auto 17px;
+      }
+      &_second {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 12px;
+      }
+      &_third {
+        font-size: 14px;
+        line-height: 14px;
+        font-family: $roboto;
+        font-weight: 300;
+      }
+    }
+    &-box2 {
+      @extend .content2-box1;
+      margin: 0px 19px;
+      &_first {
+        @extend .content2-box1_first;
+        background-image: url("../Image/Avatar1.png");
+      }
+      &_second {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 12px;
+      }
+      &_third {
+        font-size: 14px;
+        line-height: 14px;
+        font-family: $roboto;
+        font-weight: 300;
+      }
+    }
+    &-box3 {
+      @include clas(221px, 224px, none);
+      @extend .content2-box1;
+      margin-right: 18px;
+      &_first {
+        @extend .content2-box1_first;
+        background-image: url("../Image/Avatar2.png");
+      }
+      &_second {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 12px;
+      }
+      &_third {
+        font-size: 14px;
+        line-height: 14px;
+        font-family: $roboto;
+        font-weight: 300;
+      }
+    }
+    &-box4 {
+      @extend .content2-box3;
+      margin: 0px 0px 36px;
+      &_first {
+        @extend .content2-box1_first;
+        background-image: url("../Image/Avatar3.png");
+      }
+      &_second {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 12px;
+      }
+      &_third {
+        font-size: 14px;
+        line-height: 14px;
+        font-family: $roboto;
+        font-weight: 300;
+      }
+    }
+    &-button {
+      @include clas(180px, 40px, white);
+      border: 2px solid #ff4e50;
+      border-radius: 40px;
+      clear: both;
+      padding: 12px;
+      color: red;
+      margin: 0px auto;
+    }
+  }
+  .content3 {
+    @include clas(100%, 1031px, none);
+    text-align: center;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 95px;
+    h1 {
+      font-size: 26px;
+      color: black;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    &-box1 {
+      @include clas(100%, 310px, none);
+      &_first {
+        @include clas(300px, 310px, black);
+        background-image: url("../Image/Object1.png");
+        float: left;
+        padding-top: 142px;
+      }
+      &_second {
+        @include clas(300px, 310px, black);
+        background-image: url("../Image/Object2.png");
+        margin: 0px 20px;
+        float: left;
+        padding-top: 142px;
+      }
+      &_third {
+        @include clas(300px, 310px, #d8d8d8);
+        background-image: url("../Image/Object3.png");
+        float: left;
+        padding-top: 142px;
+      }
+    }
+
+    &-box2 {
+      @include clas(100%, 310px, none);
+      margin: 20px 0px;
+      &_first {
+        @include clas(300px, 310px, black);
+        background-image: url("../Image/Object4.png");
+        float: left;
+        padding-top: 142px;
+      }
+      &_second {
+        @include clas(620px, 310px, black);
+        background-image: url("../Image/Object5.png");
+        margin-left: 20px;
+        float: left;
+        padding-top: 142px;
+      }
+    }
+    &-box3 {
+      @include clas(100%, 310px, none);
+      &_first {
+        @include clas(620px, 310px, black);
+        background-image: url("../Image/Object6.png");
+        float: left;
+        padding-top: 142px;
+      }
+      &_second {
+        @include clas(300px, 310px, black);
+        background-image: url("../Image/Object7.png");
+        margin-left: 20px;
+        float: left;
+        padding-top: 142px;
+      }
+    }
+  }
+  .content4 {
+    @include clas(482px, 158px, none);
+    margin: 0px auto 100px;
+    color: black;
+    text-align: center;
+    h1 {
+      font-size: 26px;
+      color: black;
+      text-align: center;
+      margin-bottom: 43px;
+    }
+    &-box1 {
+      font-size: 18px;
+      font-family: $roboto;
+      font-weight: 300;
+      margin-bottom: 24px;
+    }
+    &-box2 {
+      @include clas(482px, 40px, none);
+      &_first {
+        @include clas(299px, 40px, none);
+        float: left;
+        border: 1px solid #d4d4d4;
+        input {
+          @include clas(291px, 34px, none);
+          color: black;
+        }
+      }
+      &_second {
+        @include clas(172px, 40px, none);
+        float: left;
+        background: #ff4e50;
+        border-radius: 40px;
+        margin-left: 10px;
+        padding-top: 12px;
+        font-size: 14px;
+        color: white;
+      }
+    }
+  }
+}
+footer {
+  @include clas(100%, 224px, white);
+  padding: 38px 250px 0px;
+  color: black;
+  border-top: 2px solid red;
+  h1 {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "montserrat400";
+    margin-right: 122px;
+    color: red;
+    float: left;
+  }
+  h5 {
+    margin-bottom: 11px;
+  }
+  ul {
+    float: left;
+    font-size: 14px;
+    margin-right: 169px;
+  }
+  li {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: $roboto;
+    line-height: 26px;
+    color: #999999;
+  }
+  h6 {
+    text-align: right;
+    font-size: 10px;
+    color: #cccccc;
+  }
+  img {
+    margin-left: 105px;
+  }
+}
+@media screen and(max-width:1430px) {
+  body {
+    width: 768px;
+    height: 3451px;
+    background-color: #cccccc;
+  }
+  header {
+    padding: 40px 0px 224px 0px;
+    background-position: center;
+    .block {
+      width: 670px;
+      height: 36px;
+      margin-left: 48px;
+      &_logo {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 365px;
+      }
+    }
+  }
+  main {
+    width: 768px;
+    height: 2735px;
+    .content1 h1 {
+      font-size: 22px;
+    }
+    .content1 {
+      padding-left: 10px;
+    }
+    .content1-box1,
+    .content1-box3 {
+      padding: 205px 20px 0px;
+      width: 236px;
+      &_first {
+        margin-bottom: 40px;
+      }
+      &_second {
+        line-height: 14px;
+      }
+    }
+    .content1-box2 {
+      padding: 255px 20px 0px;
+      width: 236px;
+      &_first {
+        margin-bottom: 17px;
+      }
+      &_second {
+        line-height: 14px;
+      }
+    }
+    .content2 {
+      width: 495px;
+      height: 605px;
+      margin: 95px auto;
+      &-box1,
+      &-box2,
+      &-box3,
+      &-box4 {
+        width: 236px;
+        margin: 0px;
+      }
+      &-box4 {
+        margin: 35px 0px 40px 20px;
+      }
+      &-box3 {
+        margin-top: 35px;
+      }
+      &-box2 {
+        margin-left: 20px;
+      }
+    }
+    .content3 {
+      padding-left: 10px;
+      &-box1 {
+        @include clas(100%, 310px, none);
+        &_first {
+          @include clas(236px, 310px, black);
+        }
+        &_second {
+          @include clas(236px, 310px, black);
+        }
+        &_third {
+          @include clas(236px, 310px, #d8d8d8);
+        }
+      }
+
+      &-box2 {
+        @include clas(100%, 310px, none);
+        &_first {
+          @include clas(236px, 310px, black);
+        }
+        &_second {
+          @include clas(492px, 310px, black);
+        }
+      }
+      &-box3 {
+        @include clas(100%, 310px, none);
+        &_first {
+          @include clas(492px, 310px, black);
+        }
+        &_second {
+          @include clas(236px, 310px, black);
+        }
+      }
+    }
+  }
+  footer {
+    padding: 36px 36px 0px;
+    h1 {
+      margin-right: 108px;
+    }
+    ul {
+      margin-right: 100px;
+    }
+    img {
+      margin-left: 170px;
+    }
+  }
+}
+@media screen and(max-width:770px) {
+  body {
+    width: 320px;
+    height: 3938px;
+  }
+  header {
+    padding: 20px 10px 0px;
+    background-image: url("../Image/Headaer\ and\ Promo.png");
+    height: 540px;
+    .block {
+      width: 153px;
+      height: 36px;
+      margin-left: 70px;
+      &_logo {
+        position: absolute;
+        top: 153px;
+      }
+    }
+    .block2 {
+      width: 281px;
+      height: 183.5px;
+      margin: 147.5px auto 0px;
+      &_bigtext {
+        font-size: 30px;
+        line-height: 36.5px;
+        margin-bottom: 5.5px;
+      }
+      &_midtext {
+        width: 240px;
+        font-size: 18px;
+        line-height: 24.5px;
+        margin: 0px auto 15px;
+      }
+      &_smalltext {
+        width: 280px;
+      }
+    }
+  }
+  main {
+    width: 320px;
+    height: 3172px;
+    padding-top: 35px;
+    .content1 h1 {
+      margin-bottom: 15px;
+    }
+    .content1 {
+      height: 780px;
+    }
+    .content1-box1,
+    .content1-box3 {
+      padding: 69px 30px 0px 20px;
+      width: 300px;
+      height: 240px;
+    }
+    .content1-box2 {
+      padding: 95px 30px 0px 20px;
+      width: 300px;
+      height: 240px;
+      margin: 10px 0px;
+      &_first {
+        margin-bottom: 23px;
+      }
+      &_second {
+        line-height: 24px;
+      }
+    }
+    .content2 {
+      width: 300px;
+      height: 1031px;
+      margin: 35px auto;
+      h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+      }
+      &-box1,
+      &-box2,
+      &-box4 {
+        width: 236px;
+        height: 205px;
+        margin: 0px 32px;
+      }
+      &-box3 {
+        margin: 35px 0px 40px 20px;
+        height: 224px;
+        margin: 16px 32px;
+      }
+      &-box4 {
+        width: 236px;
+        height: 205px;
+        margin: 0px 32px 36px;
+      }
+      &-box2 {
+        margin-top: 16px;
+      }
+      &-button {
+        width: 236px;
+      }
+    }
+    .content3 {
+      padding-left: 10px;
+      height: 987px;
+      margin-bottom: 35px;
+      &-box1 {
+        @include clas(0px, 0px, none);
+        &_first {
+          @include clas(300px, 120px, black);
+          padding: 33px 0px;
+          margin: 0px;
+          background-image: url("../Image/photo1.png");
+        }
+        &_second {
+          @include clas(300px, 120px, black);
+          padding: 33px 0px;
+          margin: 10px 0px 0px 0px;
+          background-image: url("../Image/photo2.png");
+        }
+        &_third {
+          @include clas(300px, 120px, #d8d8d8);
+          padding: 33px 0px;
+          margin: 10px 0px 0px 0px;
+          background-image: url("../Image/photo3.png");
+        }
+      }
+
+      &-box2 {
+        @include clas(0px, 0px, none);
+        &_first {
+          @include clas(300px, 120px, black);
+          padding: 33px 0px;
+          margin: 10px 0px 0px 0px;
+          background-image: url("../Image/photo4.png");
+        }
+        &_second {
+          @include clas(300px, 120px, black);
+          padding: 33px 0px;
+          margin: 10px 0px 0px 0px;
+          background-image: url("../Image/photo5.png");
+        }
+      }
+      &-box3 {
+        @include clas(0px, 0px, none);
+        &_first {
+          @include clas(300px, 120px, black);
+          padding: 33px 0px;
+          margin: 10px 0px 0px 0px;
+          background-image: url("../Image/photo6.png");
+        }
+        &_second {
+          @include clas(300px, 120px, black);
+          padding: 33px 0px;
+          margin: 10px 0px 0px 0px;
+          background-image: url("../Image/photo7.png");
+        }
+      }
+    }
+    .content4{
+        width: 300px;
+        height: 192px;
+        margin-bottom: 0px;
+        h1{
+            width: 280px;
+            font-size: 22px;
+            margin: 0px auto 10px;
+            line-height: 26.8px;
+        }
+        &-box1{
+            margin-bottom: 15px;
+        }
+        &-box2{
+            width: 0px;
+            &_second{
+                width: 280px;
+                margin-top: 10px;
+            }
+        }
+    }
+  }
+  footer {
+    width: 320px;
+    height: 224px;
+    padding: 19px 60px 0px;
+    position: relative;
+    h1 {
+      margin: 0px 0px 0px 50px;
+    }
+    h5 {
+        margin:13px 65px 5px;
+    }
+    h6{
+        position: absolute;
+        bottom: 53px;
+        left: 125px;
+    }
+    ul {
+      margin-right: 0px;
+      display: inline-block;
+      text-align: center;
+    }
+    li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .w{
+        margin: 10px 0px 0px 69px;
+    }
+    img {
+      margin: 0px;
+      position: absolute;
+      bottom: 22px;
+      right: 105px;
+    }
+  }
+}
